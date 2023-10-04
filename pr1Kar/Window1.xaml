@@ -1,0 +1,20 @@
+﻿<Window x:Class="pr1Kar.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr1Kar"
+        mc:Ignorable="d"
+        Title="Registration" Height="450" Width="800">
+    <Canvas>
+        <TextBlock Text="Регистрация" HorizontalAlignment="Left" VerticalAlignment="Top" Width="231" Canvas.Left="267" Height="45" TextAlignment="Center" FontSize="20"/>
+        <TextBlock Text="Почта/Логин" HorizontalAlignment="Center" VerticalAlignment="Top" Width="92" Canvas.Left="267" Canvas.Top="90" Height="17" TextAlignment="Center" />
+        <TextBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Canvas.Left="267" Canvas.Top="112" Height="18"/>
+        <TextBlock Text="Пароль" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44" Canvas.Left="269" Canvas.Top="148" Height="18" TextAlignment="Left" />
+        <TextBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Canvas.Left="267" Canvas.Top="180"/>
+        <TextBlock Text="Проверка пароля" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44" Canvas.Left="267" Canvas.Top="225" Height="18" TextAlignment="Left" />
+        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Canvas.Left="267" Canvas.Top="248"/>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Canvas.Left="302" Canvas.Top="320" Text="Уже зарегистрированы?"/>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Width="34" Canvas.Left="360" Canvas.Top="341" Text="Войти"/>
+    </Canvas>
+</Window>
